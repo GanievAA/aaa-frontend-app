@@ -52,7 +52,7 @@
       <table class="table">
         <thead>
           <tr>
-            <th scope="col">#</th>
+            <!--<th scope="col">#</th>-->
             <th scope="col">Изображение</th>
             <th scope="col">Слово</th>
             <th scope="col">Точность</th>
@@ -61,7 +61,7 @@
         <tbody>
           {% for word in words %}
           <tr>
-            <th scope="row">1</th>
+            <!--<th scope="row"></th>-->
             <td>
               <img src="{{ word.image}}" alt="image" />
             </td>
@@ -74,7 +74,7 @@
         </tbody>
       </table>
       {% else %}
-      <p class="text-center text-muted">Здесь будет таблица с изображением, слоом и точностью...</p>
+      <p class="text-center text-muted">Здесь будет таблица с изображением, словом и точностью...</p>
       {% endif %}
 
     </div>
